@@ -71,7 +71,7 @@ cores: {
         descricao: "Corte tradicional ou moderno, com acabamento cuidadoso.",
         preco: 25,
         duracao: "30 min",
-        imagem: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85"
+        imagem: "imagens-servicos/corte.svg"
     },
     {
         id: "barba",
@@ -79,7 +79,7 @@ cores: {
         descricao: "Modelagem, alinhamento e acabamento da barba.",
         preco: 20,
         duracao: "30 min",
-        imagem: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85"
+        imagem: "imagens-servicos/barba.svg"
     },
     {
         id: "corte-barba",
@@ -87,7 +87,7 @@ cores: {
         descricao: "O combo ideal para renovar o visual completo.",
         preco: 40,
         duracao: "60 min",
-        imagem: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85"
+        imagem: "imagens-servicos/corte-barba.svg"
     },
     {
         id: "corte-barba-sobrancelha",
@@ -95,7 +95,7 @@ cores: {
         descricao: "Cuidado completo, do corte ao acabamento final.",
         preco: 55,
         duracao: "60 min",
-        imagem: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=85"
+        imagem: "imagens-servicos/combo-completo.svg"
     }
 ],
         // ==========================================

@@ -195,7 +195,6 @@ function renderServices() {
                         src="${service.image}"
                         alt="${service.name}"
                         loading="lazy"
-                        onerror="this.style.display='none'"
                     >
                     <div class="service-card-content">
                         <span class="number">SERVIÇO 0${index + 1}</span>

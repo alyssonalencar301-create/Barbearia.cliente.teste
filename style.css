@@ -274,6 +274,8 @@ h1 span {
 
 .service-card-image {
     display: block;
+    background: #171717;
+    display: block;
     width: 100%;
     height: 220px;
     object-fit: cover;
@@ -796,6 +798,8 @@ footer {
     }
 
     .service-card-image {
+    display: block;
+    background: #171717;
         height: 190px;
     }
 
@@ -852,6 +856,8 @@ footer {
     }
 
     .service-card-image {
+    display: block;
+    background: #171717;
         height: 220px;
     }
 
