@@ -140,3 +140,100 @@ h1 span{color:var(--gold)}.hero-text{max-width:570px;color:var(--muted);font-siz
     }
 
 }
+
+/* TEMA BRANCO E AZUL */
+:root {
+    --bg: #FFFFFF;
+    --card: #FFFFFF;
+    --card2: #F1F5F9;
+    --text: #111827;
+    --muted: #64748B;
+    --gold: #155EEF;
+    --gold2: #2563EB;
+    --line: #D1D5DB;
+    --servicoNome: #111827;
+}
+
+/* Cabeçalho */
+.topbar {
+    background: #FFFFFF !important;
+    border-bottom: 1px solid #D1D5DB;
+}
+
+.admin-link {
+    color: #155EEF;
+    border-color: #D1D5DB;
+}
+
+/* Área de agendamento */
+.booking-section {
+    background: #FFFFFF !important;
+}
+
+.booking-card,
+.service-card {
+    background: #FFFFFF !important;
+    color: #111827;
+    border-color: #D1D5DB;
+}
+
+/* Seleção de barbeiro e serviço */
+.option {
+    background: #F1F5F9 !important;
+    color: #111827;
+    border-color: #D1D5DB;
+}
+
+.option.selected {
+    background: #EAF1FF !important;
+    border-color: #155EEF;
+}
+
+/* Campos de preenchimento */
+input,
+select {
+    background: #FFFFFF !important;
+    color: #111827 !important;
+    border-color: #D1D5DB;
+}
+
+/* Horários */
+.time {
+    background: #FFFFFF;
+    color: #111827;
+    border-color: #D1D5DB;
+}
+
+.time.selected {
+    background: #155EEF;
+    color: #FFFFFF;
+    border-color: #155EEF;
+}
+
+/* Resumo do agendamento */
+.summary {
+    background: #F1F5F9;
+    color: #111827;
+    border-color: #D1D5DB;
+}
+
+.summary strong {
+    color: #111827;
+}
+
+/* Botões principais */
+.primary-btn {
+    background: #155EEF;
+    color: #FFFFFF;
+}
+
+.primary-btn:hover {
+    background: #2563EB;
+}
+
+/* Etapas do agendamento */
+.step.active span {
+    background: #155EEF;
+    border-color: #155EEF;
+    color: #FFFFFF;
+}
