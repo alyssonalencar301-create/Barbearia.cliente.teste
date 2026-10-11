@@ -4,7 +4,7 @@ const CONFIG = {
     // IDENTIDADE DA BARBEARIA
     // ==========================================
 
-   nome: "Barbearia do Novinho",
+   nome: "Barbearia Teste",
 
     logo: "logo.png",
     slogan: "Seu estilo, sua identidade",
@@ -35,8 +35,7 @@ cores: {
     // ==========================================
 
     barbeiros: [
-        "Alysson",
-        "Pedro",
+            "Pedro",
         "Ruan",
     ],
 
@@ -80,7 +79,7 @@ cores: {
    horario: {
     abertura: 8,
     fechamento: 18,
-    intervalo: 60,
+    intervalo: 30,
 
     diasFuncionamento: [
        1, // Segunda
