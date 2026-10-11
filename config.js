@@ -19,19 +19,21 @@ endereco: "Av. Central Do Brazil, 250 - Centro",
 
 
 
+
 cores: {
-    fundo: "#000000",
-    card: "#111111",
-    card2: "#1A1A1A",
-    texto: "#FFFFFF",
-    textoSecundario: "#AAAAAA",
-    dourado: "#00C853",
-    douradoClaro: "#B9F6CA",
-    linha: "#333333",
-    servicoNome: "#FFFFFF",
-    hero: "#000000",
-    heroCard: "#111111"
+    fundo: "#FFFFFF",
+    card: "#FFFFFF",
+    card2: "#F1F5F9",
+    texto: "#111827",
+    textoSecundario: "#64748B",
+    dourado: "#155EEF",
+    douradoClaro: "#2563EB",
+    linha: "#D1D5DB",
+    servicoNome: "#111827",
+    hero: "#EAF1FF",
+    heroCard: "#FFFFFF"
 },
+
 
 
     // ==========================================
