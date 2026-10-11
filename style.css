@@ -27,6 +27,7 @@ background: radial-gradient(
     #101D30 30%,
     #0B1F3A 60%
 );
+     }
 .eyebrow{color:var(--gold);font-weight:800;letter-spacing:2px;font-size:12px;margin-bottom:10px}
 h1{font-family:Oswald,Arial,sans-serif;text-transform:uppercase;font-size:clamp(54px,8vw,96px);line-height:.96;letter-spacing:1px}
 h1 span{color:var(--gold)}.hero-text{max-width:570px;color:var(--muted);font-size:16px;margin:25px 0 30px}
