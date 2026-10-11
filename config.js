@@ -21,6 +21,7 @@ cores: {
     fundo: "#0A0A0A",
     card: "#171717",
     card2: "#222222",
+    heroCard: "#0A0A0A",
     texto: "#F6F6F6",
     textoSecundario: "#A5A5A5",
     dourado: "#C1121F",
