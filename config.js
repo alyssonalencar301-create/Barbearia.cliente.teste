@@ -17,19 +17,21 @@ whatsapp: "(87) 99189-6806",
 endereco: "Av. Central Do Brazil, 250 - Centro",
 
 
+
 cores: {
-    fundo: "#0A0A0A",
-    card: "#171717",
-    card2: "#222222",
-    texto: "#F6F6F6",
-    textoSecundario: "#A5A5A5",
-    dourado: "#008F5A",
-    douradoClaro: "#34D399",
-    linha: "#333333",
-    servicoNome: "#FFFFFF",
-    hero: "#0A0A0A",
-    heroCard: "#0A0A0A"
-}, 
+    fundo: "#FFFFFF",
+    card: "#FFFFFF",
+    card2: "#F1F5F9",
+    texto: "#111827",
+    textoSecundario: "#64748B",
+    dourado: "#155EEF",
+    douradoClaro: "#EAF1FF",
+    linha: "#D1D5DB",
+    servicoNome: "#111827",
+    hero: "#FFFFFF",
+    heroCard: "#F1F5F9"
+},
+
     // ==========================================
     // BARBEIROS
     // ==========================================
