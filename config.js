@@ -26,6 +26,7 @@ cores: {
     dourado: "#C1121F",
     douradoClaro: "#EF4444",
     linha: "#333333",
+    hero: "#0A0A0A",
     servicoNome: "#FFFFFF"
 },
     
