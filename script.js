@@ -127,17 +127,25 @@ if (whatsappLink) {
 }
    
     document.getElementById("enderecoBarbearia").textContent = CONFIG.endereco;
-    document.documentElement.style.setProperty("--bg", CONFIG.cores.fundo);
+   
+document.documentElement.style.setProperty("--bg", CONFIG.cores.fundo);
 document.documentElement.style.setProperty("--card", CONFIG.cores.card);
 document.documentElement.style.setProperty("--card2", CONFIG.cores.card2);
-    document.documentElement.style.setProperty("--heroCard", CONFIG.cores.heroCard);
+document.documentElement.style.setProperty("--heroCard", CONFIG.cores.heroCard);
 document.documentElement.style.setProperty("--text", CONFIG.cores.texto);
 document.documentElement.style.setProperty("--muted", CONFIG.cores.textoSecundario);
 document.documentElement.style.setProperty("--gold", CONFIG.cores.dourado);
 document.documentElement.style.setProperty("--gold2", CONFIG.cores.douradoClaro);
 document.documentElement.style.setProperty("--line", CONFIG.cores.linha);
-    document.documentElement.style.setProperty("--hero", CONFIG.cores.hero);
-    document.documentElement.style.setProperty("--servicoNome", CONFIG.cores.servicoNome);
+document.documentElement.style.setProperty("--hero", CONFIG.cores.hero);
+document.documentElement.style.setProperty("--servicoNome", CONFIG.cores.servicoNome);
+
+// Novas cores de sucesso e erro
+document.documentElement.style.setProperty("--success", CONFIG.cores.sucesso);
+document.documentElement.style.setProperty("--successBg", CONFIG.cores.sucessoFundo);
+document.documentElement.style.setProperty("--danger", CONFIG.cores.erro);
+document.documentElement.style.setProperty("--dangerBg", CONFIG.cores.erroFundo);
+
     document.getElementById("horarioHero").textContent =
     String(CONFIG.horario.abertura).padStart(2, "0") +
     ":00 — " +
