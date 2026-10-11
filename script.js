@@ -130,6 +130,7 @@ if (whatsappLink) {
     document.documentElement.style.setProperty("--bg", CONFIG.cores.fundo);
 document.documentElement.style.setProperty("--card", CONFIG.cores.card);
 document.documentElement.style.setProperty("--card2", CONFIG.cores.card2);
+    document.documentElement.style.setProperty("--heroCard", CONFIG.cores.heroCard);
 document.documentElement.style.setProperty("--text", CONFIG.cores.texto);
 document.documentElement.style.setProperty("--muted", CONFIG.cores.textoSecundario);
 document.documentElement.style.setProperty("--gold", CONFIG.cores.dourado);
