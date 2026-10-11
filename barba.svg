@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#242018"/><stop offset=".55" stop-color="#111111"/><stop offset="1" stop-color="#050505"/></linearGradient><radialGradient id="glow"><stop stop-color="#c9a227" stop-opacity=".32"/><stop offset="1" stop-color="#c9a227" stop-opacity="0"/></radialGradient></defs>
-<rect width="900" height="560" fill="url(#bg)"/><circle cx="650" cy="240" r="310" fill="url(#glow)"/>
-<g fill="none" stroke="#C9A227" stroke-width="7" opacity=".85"><circle cx="450" cy="230" r="116"/><circle cx="450" cy="230" r="96" stroke-dasharray="3 17" stroke-width="3"/></g>
-<g fill="#C9A227" font-family="Arial,sans-serif" text-anchor="middle"><text x="450" y="265" font-size="112">✦</text><text x="450" y="430" font-size="40" font-weight="700" letter-spacing="7">BARBA</text><text x="450" y="472" font-size="21" letter-spacing="3" fill="#D6D0C1">BARBA ALINHADA</text></g>
-<path d="M70 510H830" stroke="#C9A227" stroke-opacity=".5" stroke-width="2"/><text x="450" y="535" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#A3A3A3" letter-spacing="5">BARBEARIA TESTE</text></svg>
