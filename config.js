@@ -21,16 +21,15 @@ cores: {
     fundo: "#0A0A0A",
     card: "#171717",
     card2: "#222222",
-    heroCard: "#0A0A0A",
     texto: "#F6F6F6",
     textoSecundario: "#A5A5A5",
-    dourado: "#C1121F",
-    douradoClaro: "#EF4444",
+    dourado: "#008F5A",
+    douradoClaro: "#34D399",
     linha: "#333333",
+    servicoNome: "#FFFFFF",
     hero: "#0A0A0A",
-    servicoNome: "#FFFFFF"
-},
-    
+    heroCard: "#0A0A0A"
+}, 
     // ==========================================
     // BARBEIROS
     // ==========================================
