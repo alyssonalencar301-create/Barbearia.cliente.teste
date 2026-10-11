@@ -18,17 +18,16 @@ endereco: "Av. Central Do Brazil, 250 - Centro",
 
 
 cores: {
-    fundo: "#0B1F3A",
-    card: "#132B4A",
-    card2: "#1B3A60",
-    texto: "#F8FAFC",
-    textoSecundario: "#B8CCE3",
-    dourado: "#93C5FD",
-    douradoClaro: "#BFDBFE",
-    linha: "#294767",
+    fundo: "#0A0A0A",
+    card: "#171717",
+    card2: "#222222",
+    texto: "#F6F6F6",
+    textoSecundario: "#A5A5A5",
+    dourado: "#C1121F",
+    douradoClaro: "#EF4444",
+    linha: "#333333",
     servicoNome: "#FFFFFF"
 },
-
     
     // ==========================================
     // BARBEIROS
