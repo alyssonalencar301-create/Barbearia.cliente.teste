@@ -7,7 +7,7 @@
 // ------------------------------------------------------
 
 const SUPABASE_URL = "https://dtdkibatvmxgwvscwbeo.supabase.co";
-const SUPABASE_KEY = "sb_publishable_mOTfnwk-9tOMCbYjno7giA_T8GBoe4u";
+const SUPABASE_KEY = "sb_publishable_CdxLoaXcOSjJotPyKZm2CQ_xARJLvSX";
 
 
 // Verifica se o Supabase foi carregado
