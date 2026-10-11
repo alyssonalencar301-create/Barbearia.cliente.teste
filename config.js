@@ -4,37 +4,40 @@ const CONFIG = {
     // IDENTIDADE DA BARBEARIA
     // ==========================================
 
-   nome: "Barber Black",
+   nome: "Barbearia do Novinho",
 
     logo: "logo.png",
     slogan: "Seu estilo, sua identidade",
     heroTitulo1: "SEU ESTILO.",
-heroTitulo2: "SEU HORÁRIo.",
+heroTitulo2: "SEU HORÁRIO.",
 heroDescricao: "Escolha o serviço, o barbeiro e o melhor horário. Seu agendamento fica confirmado em poucos passos.",
 
 whatsapp: "(87) 99189-6806",
 
-endereco: "Av. Central, 250 - Centro",
+endereco: "Av. Central Do Brazil, 250 - Centro",
+
 
 cores: {
-    fundo: "#0b0b0b",
-    card: "#151515",
-    card2: "#1d1d1d",
-    texto: "#f6f6f6",
-    textoSecundario: "#a5a5a5",
-dourado: "#d8a84e",
-    douradoClaro: "#f0c66a",
-    linha: "#292929",
-    servicoNome: "#ffffff"
+    fundo: "#0B1F3A",
+    card: "#132B4A",
+    card2: "#1B3A60",
+    texto: "#F8FAFC",
+    textoSecundario: "#B8CCE3",
+    dourado: "#93C5FD",
+    douradoClaro: "#BFDBFE",
+    linha: "#294767",
+    servicoNome: "#FFFFFF"
 },
+
     
     // ==========================================
     // BARBEIROS
     // ==========================================
 
     barbeiros: [
-        "João",
+        "Alysson",
         "Pedro",
+        "Ruan",
     ],
 
 
@@ -61,13 +64,13 @@ dourado: "#d8a84e",
         id: "corte-barba",
         nome: "Corte + Barba",
         descricao: "Combo corte e barba",
-        preco: 45
+        preco: 40
     },
        {
         id: "corte-barba-sobrancelha",
         nome: "Corte + Barba + Sobrancelha",
         descricao: "O combo completo",
-        preco: 65
+        preco: 55
     }
 ],
         // ==========================================
@@ -76,8 +79,8 @@ dourado: "#d8a84e",
 
    horario: {
     abertura: 8,
-    fechamento: 19,
-    intervalo: 30,
+    fechamento: 18,
+    intervalo: 60,
 
     diasFuncionamento: [
        1, // Segunda
