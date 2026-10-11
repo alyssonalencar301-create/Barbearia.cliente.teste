@@ -1605,9 +1605,19 @@ async function carregarAgenda() {
         </p>
     `;
 
-const { data: sessionData } = await db.auth.getSession();
 
-console.log("Sessão do administrador:", sessionData);
+const { data: sessionData, error: sessionError } =
+    await db.auth.getSession();
+
+if (sessionError || !sessionData.session) {
+    adminList.innerHTML = `
+        <p style="color:#777">
+            Faça login para visualizar a agenda.
+        </p>
+    `;
+    return;
+}
+
     
     const { data: agendamentos, error } =
         await db
