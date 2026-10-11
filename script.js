@@ -6,7 +6,7 @@
 // CONFIGURAÇÃO DO SUPABASE
 // ------------------------------------------------------
 
-const SUPABASE_URL = "https://dtdkibatvmxgwvscwbeo.supabase.co";
+const SUPABASE_URL = "https://kqquegrkgkpvqjqbhyjv.supabase.co/rest/v1/";
 const SUPABASE_KEY = "sb_publishable_CdxLoaXcOSjJotPyKZm2CQ_xARJLvSX";
 
 
