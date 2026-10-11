@@ -35,8 +35,8 @@ h1 span{color:var(--gold)}.hero-text{max-width:570px;color:var(--muted);font-siz
 .primary-btn:hover{background:var(--gold2);transform:translateY(-1px)}
 
 .hero-card {
-    border: 1px solid #294767;
-    background: linear-gradient(145deg, #132B4A, #0B1F3A);
+    border: 1px solid var(--gold);
+    background: var(--heroCard);
     border-radius: 16px;
     padding: 45px 35px;
     text-align: center;
