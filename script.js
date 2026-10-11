@@ -1707,6 +1707,38 @@ if (sessionError || !sessionData.session) {
 window.cancelBooking =
     async function (id) {
 
+window.cancelBooking = async function (id) {
+    const { data: sessionData, error: sessionError } =
+        await db.auth.getSession();
+
+    if (sessionError || !sessionData.session) {
+        alert("Faça login para cancelar agendamentos.");
+        return;
+    }
+
+    const confirmar = confirm("Cancelar este agendamento?");
+
+    if (!confirmar) {
+        return;
+    }
+
+    const { error } = await db
+        .from("agendamentos")
+        .delete()
+        .eq("id", id);
+
+    if (error) {
+        console.error(error);
+        alert("Não foi possível cancelar o agendamento.");
+        return;
+    }
+
+    alert("Agendamento cancelado.");
+
+    await carregarAgenda();
+    await renderTimes();
+};
+
         const confirmar =
             confirm(
                 "Cancelar este agendamento?"
