@@ -23,9 +23,9 @@ button{cursor:pointer}
 .hero{min-height:560px;padding:80px 7%;display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center;
 background: radial-gradient(
     circle at 75% 50%,
-    #172F50 0,
-    #101D30 30%,
-    #0B1F3A 60%
+    var(--hero) 0,
+    var(--bg) 30%,
+    var(--bg) 60%
 );
      }
 .eyebrow{color:var(--gold);font-weight:800;letter-spacing:2px;font-size:12px;margin-bottom:10px}
