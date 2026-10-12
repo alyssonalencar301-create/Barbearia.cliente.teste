@@ -45,7 +45,7 @@ cores: {
   sucessoFundo: "#DCFCE7",
 
   erro: "#DC2626",
-  erroFundo: "#FEE2E2"
+  erroFundo: "#FEE2E2",
 }
 
 
