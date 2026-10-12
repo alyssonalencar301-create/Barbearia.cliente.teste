@@ -17,27 +17,27 @@ whatsapp: "(87) 99189-6806",
 endereco: "Av. Central Do Brazil, 250 - Centro",
 
 cores: {
-  fundo: "#F5F8FF",
-  card: "#FFFFFF",
-  card2: "#EAF1FF",
+  fundo: "#0B0B0B",
+  card: "#151515",
+  card2: "#202020",
 
-  texto: "#172B4D",
-  textoSecundario: "#64748B",
+  texto: "#F5F5F5",
+  textoSecundario: "#B8B8B8",
 
-  dourado: "#155EEF",
-  douradoClaro: "#528BFF",
+  dourado: "#D4AF37",
+  douradoClaro: "#F2D675",
 
-  linha: "#D6E4FF",
-  servicoNome: "#172B4D",
+  linha: "#383838",
+  servicoNome: "#D4AF37",
 
-  hero: "#EAF1FF",
-  heroCard: "#FFFFFF",
+  hero: "#101010",
+  heroCard: "#191919",
 
-  sucesso: "#16A34A",
-  sucessoFundo: "#DCFCE7",
+  sucesso: "#22C55E",
+  sucessoFundo: "#102817",
 
-  erro: "#DC2626",
-  erroFundo: "#FEE2E2"
+  erro: "#EF4444",
+  erroFundo: "#2A1111"
 },
 
 
