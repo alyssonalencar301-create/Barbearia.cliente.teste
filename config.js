@@ -32,7 +32,7 @@ cores: {
   sucessoFundo: "#102817",
   erro: "#EF4444",
   erroFundo: "#2A1111"
-}
+},
 
 
 
